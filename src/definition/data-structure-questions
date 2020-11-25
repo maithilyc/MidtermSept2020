@@ -1,39 +1,104 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-A.
-
+A. To locate and retrieve data.
 
 What are the various operations that can be performed on different Data Structures?
+A. Search, sort, delete, insert, merge,traverse
+
 List out the areas in which data structures are applied extensively?
+A. Operating system, database management system, statistical analysis package, numerical analysis, graphics,
+    AI, simulation
+
 what is an Array?
+A. Collection of data with an index.
+
 what is the difference between the Array and ArrayList?
+A. Array: can store primitive variables and objects
+   Arraylist: can store only objects
+
 what is LinkedList?
+A. A linear data structure where each element is a separate object which is called a node.
+
 How is an Array different from Linked List?
+A. Array each element is independent whereas in linked list each node points to the next or previous one.
+
 what is queue?
+A. An ordered list of objects.
+
 what is stack?
+A. Stack is LIFO(Last-In-First-Out) data structure.
+
 what is FIFO and LIFO?
+A. First in and first out and last in first out are ways of storing items in a linear list.
+
 what is the order of complexity?
+A. A certain mathematical expression of the size of the input, and the algorithm finishes between
+two factors of it.
+
 what is the best case to search an element from an array?
+A. When you find it on the first comparison.
+
 what is the worst case to search an element from an array?
+A. When expected value is the last.
+
 what is tree in data structure?
+A. Is a nonlinear data structure.
+
 what is graph in data structure?
+A. Picture representation of a set of objects where some pairs of objects are connected by edges.
+
 what is the difference between the HashTable and HashMap?
+A. Hashtable: is synchronized
+   Hashmap: is not synchronized
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+A. RDBMS:Array, Network data model:Graph, Hierarchical data model:Trees
+
 How HashMap works in java?
+A. It works based on the hashing principle.
+
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
+A. Is an error you get trying to access an array index that doesn't exist.
+
 What are the different ways of copying an array into another array?
+A.  Manually
+    Arrays.copyOf()
+    System.arraycopy()
+    Object.clone()
 What is difference between an array and a linked list?
+A. Array can store primitive variables and objects but Arraylist can store only objects.
+
 What is DFS and BFS?
+A. Depth-First-Search and Breath-First-Search.
+
 What is Recursion?
+A. When a method calls itself inside the method
+
 What are linear and non linear data Structures?
+A. Linear data structure: it organizes data in a sequential way
+   Non-linear data structure: it organizes data in a hierarchical way
+
 What is Big-(O)-notation?
+A. We use Big(0) to describe the performance of an algorithm.
+
 Outlined different kind of sorting algorithm with time complexity?
+A. bubblesort = n^2
+InsertionSort = n^2
+SelectionSort = 2^2
+QuickSort = nlogn
+mergesort = nlogn
+bucketSort= n+k
+
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
   a)In terms of Accessing element.
   b)In terms of Inserting element.
   c)In terms of Searching element.
   d)In terms of Removing element.
-
+ A. array:      search o(n),     access o(1),     insert o(n),     deletion o(n)
+    arraylist:  search o(n),     access o(1),     insert o(n),     deletion o(n)
+    linkedlist: search o(n),     access o(1),     insert o(1),     deletion o(1)
+    stack:      search o(n),     access o(n),     insert o(1),     deletion o(1)
+    queue:      search o(n),     access o(n),     insert o(1),     deletion o(1)
+    B-Tree:     search o(log n), access o(log n), insert o(log n), deletion o(log n)
 

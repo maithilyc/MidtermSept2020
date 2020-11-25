@@ -1,5 +1,6 @@
 package datastructure;
-
+import java.util.*;
+import java.io.*;
 public class DataReader {
 
 	public static void main(String[] args) {
@@ -15,11 +16,57 @@ public class DataReader {
 		 * Demonstrate how to use Stack that includes push,peek,search,pop elements.
 		 * Use For Each loop/while loop/Iterator to retrieve data.
 		 */
-
 		String textFile = System.getProperty("user.dir") + "/src/data/self-driving-car.txt";
+		FileReader fr = null;
+		BufferedReader br = null;
+		String line;
+		String store = "";
 
+		try{
+			fr = new FileReader("/Users/maithilyc/ideaprojects/midterm/data.txt");
+
+
+		}catch(Exception e){
+			System.out.println("System was not able to find attached file ");
+		}
+
+		try{
+			br = new BufferedReader(fr);
+			while((line =br.readLine())!= null){
+				System.out.println(line);
+				store+= line;
+
+			}
+		}catch(Exception e){
+			System.out.println("System was not able to read attached file ");
+		}
+
+		String[] storeArray = store.split(" ");
+
+		Stack<String> myStack = new Stack<String>();
+		List<String> myList = new LinkedList<String>();
+		for(String element : storeArray){
+			myStack.add(element);
+			myStack.push(element);
+		}
+		System.out.println("The LinkedList LIFO");
+		Iterator<String> it = myList.iterator();
+		while(it.hasNext()){
+			System.out.println(it.next() + " ");
+		}
+		System.out.println(" The Stack  LIFO");
+
+		while(!myStack.isEmpty()){
+			System.out.println(myStack.pop() + "  ");
+		}
 
 
 	}
 
 }
+
+
+
+
+
+

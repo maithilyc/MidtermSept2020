@@ -13,7 +13,15 @@ public class UseQueue {
 		 */
 		Queue<String> queue = new LinkedList<>();
 		queue.poll();
+		queue.add("NY");
+		queue.add("CA");
+		queue.add("TX");
+		queue.add("FL");
 
+		System.out.println(queue.peek());
+		System.out.println(queue.remove());
+		System.out.println(queue.peek());
+	}
 	}
 
-}
+

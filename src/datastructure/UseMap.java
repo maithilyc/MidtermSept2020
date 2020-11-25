@@ -1,4 +1,6 @@
 package datastructure;
+import java.util.HashMap;
+import java.util.Map;
 
 public class UseMap {
 
@@ -9,6 +11,14 @@ public class UseMap {
 		 * Use For Each loop and while loop with Iterator to retrieve data.
 		 *
 		 */
+		Map<String,String> map = new HashMap<>();
+		map.put ("USA", "New York");
+		map.put ("CANADA", "Toronto");
+		map.put ("BANGLADESH", "Dhaka");
+
+		System.out.println(map.get("USA"));
+		System.out.println(map.get("CANADA"));
+		System.out.println(map.get("BANGLADESH"));
 
 	}
 
