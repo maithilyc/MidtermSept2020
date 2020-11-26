@@ -20,10 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d20e702-ed7b-4070-9ca5-7c0b455d2657" name="Default Changelist" comment="Midterm Sept2020">
+      <change afterPath="$PROJECT_DIR$/src/json/parser/NewsHeadLine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/EmployeeAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/EmployeeAbstract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/EmployeeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/EmployeeInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambdaexpression/anonymous/OperateLaptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambdaexpression/anonymous/OperateLaptop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingExamSeptember2020/algorithm/Numbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingExamSeptember2020/algorithm/Sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingExamSeptember2020/design/EmployeeInfo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingExamSeptember2020/design/EmployeeInfo$DateConversion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingExamSeptember2020/design/EmployeeInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingExamSeptember2020/design/FortuneEmployee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingExamSeptember2020/string/problems/Anagram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingExamSeptember2020/string/problems/DetermineLargestWord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingExamSeptember2020/string/problems/DuplicateWord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingExamSeptember2020/string/problems/Palindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingExamSeptember2020/string/problems/Permutation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingExamSeptember2020/string/problems/UnitTestingStringProblem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/json/parser/CnnAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/json/parser/CnnAPI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606341243483</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Midterm Sept2020">
+      <created>1606350210515</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606350210515</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
