@@ -6,6 +6,7 @@ public class OperateLaptop {
         //Please implement anonymous class for interface laptop
         //Laptop laptop = new Laptop(){}
 
+public interface Laptop {}
 
 
         //please implement anonymous function for Phone interface

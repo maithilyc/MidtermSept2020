@@ -173,7 +173,7 @@ public class EmployeeInfo extends EmployeeAbstract {
 			System.out.println("Your performance is poor, try to improve.");
 		} else {
 			yearlyBonus = 0;
-			System.out.println("You don't deserve bonus.");
+			System.out.println("You don't deserve a bonus.");
 		}
 		return (int) yearlyBonus;
 	}
