@@ -62,4 +62,4 @@ public class NewsHeadLine {
         this.url = url;
     }
 }
-}
+
