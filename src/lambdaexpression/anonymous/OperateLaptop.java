@@ -3,14 +3,25 @@ package lambdaexpression.anonymous;
 public class OperateLaptop {
 
     public static void main(String[] args) {
-        //Please implement anonymous class for interface laptop
-        //Laptop laptop = new Laptop(){}
 
-public interface Laptop {}
+        // Please implement anonymous class for interface laptop
+        // Laptop laptop = new Laptop(){}
 
+        // Create a new Laptop.
+        // Since "Laptop" is an interface, none of its methods have concrete definitions.
+        // A Laptop must implement two methods ramSize and monitorSize.
+        Laptop laptop = new Laptop() {
+            public void ramSize(int memorySize) {
+                System.out.println("RAM size is " + memorySize);
+            }
 
-        //please implement anonymous function for Phone interface
+            public void monitorSize(int screenSize) {
+                System.out.println("Monitor size is " + screenSize);
+            }
+        };
 
-
+        laptop.ramSize(5000);
+        laptop.monitorSize(400);
     }
+
 }

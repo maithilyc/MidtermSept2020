@@ -53,7 +53,7 @@ public class CnnAPI {
 
         final String API_ENDPOINT = "https://newsapi.org/v2/top-headlines?sources=cnn&apiKey=9570da3776534bd3aa19faa0f6b93f8b";
 
-        List<NewsHeadline> headlineList = new ArrayList<NewsHeadline>();
+        List<NewsHeadLine> headlineList = new ArrayList<NewsHeadLine>();
 
         URL apiEndpointURL = new URL(API_ENDPOINT);
         URLConnection request = apiEndpointURL.openConnection();
@@ -74,7 +74,7 @@ public class CnnAPI {
             try {
                 JsonObject jsonObject = jsonArray.get(i).getAsJsonObject();
 
-                NewsHeadline newsHeadline = new NewsHeadline(jsonObject);
+                NewsHeadLine newsHeadline = new NewsHeadLine(jsonObject);
                 headlineList.add(newsHeadline);
 
             } catch (Exception exception) {
@@ -87,7 +87,7 @@ public class CnnAPI {
         }
 
         // Print articles to the console.
-        for(NewsHeadline headline: headlineList){
+        for(NewsHeadLine headline: headlineList){
             System.out.println(headline.getTitle());
         }
     }

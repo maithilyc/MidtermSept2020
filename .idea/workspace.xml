@@ -20,9 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d20e702-ed7b-4070-9ca5-7c0b455d2657" name="Default Changelist" comment="Midterm Sept2020">
+      <change afterPath="$PROJECT_DIR$/src/lambdaexpression/anonymous/OperatePhone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingExamSeptember2020/algorithm/UnitTestSorting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingExamSeptember2020/json/parser/CnnAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingExamSeptember2020/json/parser/JsonReaderUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingExamSeptember2020/lambdaexpression/anonymous/OperateLaptop.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algorithm/Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Numbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/json/parser/NewsHeadLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/json/parser/NewsHeadLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/json/parser/CnnAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/json/parser/CnnAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambdaexpression/anonymous/OperateLaptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambdaexpression/anonymous/OperateLaptop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambdaexpression/anonymous/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambdaexpression/anonymous/Phone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +68,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Fibonacci">
+  <component name="RunManager" selected="Application.OperateLaptop">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -76,20 +83,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="datastructure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CsvReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codelab.status.CsvReader" />
-      <module name="CodingExamSeptember2020" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="codelab.status.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,6 +111,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="math.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OperateLaptop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambdaexpression.anonymous.OperateLaptop" />
+      <module name="CodingExamSeptember2020" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambdaexpression.anonymous.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OperateLaptop" />
         <item itemvalue="Application.Fibonacci" />
         <item itemvalue="Application.FindLowestDifference" />
         <item itemvalue="Application.UseArrayList" />
         <item itemvalue="Application.CollectionView" />
-        <item itemvalue="Application.CsvReader" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606370478795</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Midterm Sept2020">
+      <created>1606707790592</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606707790592</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -281,10 +295,10 @@
     </state>
     <state x="208" y="11" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1606225338446" />
     <state x="208" y="34" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1606161819227" />
-    <state x="0" y="190" key="Vcs.Push.Dialog.v2" timestamp="1606707645999">
+    <state x="0" y="190" key="Vcs.Push.Dialog.v2" timestamp="1606782477386">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="0" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1606707645999" />
+    <state x="0" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1606782477386" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -49,33 +49,33 @@ public class Numbers {
 		long bubbleSortExecutionTime = algo.executionTime;
 		System.out.println("Total Execution Time of " + num.length + " numbers in Bubble Sort take: " + bubbleSortExecutionTime + " milli sec");
 		connectToSqlDB.insertDataFromArrayToSqlTable(num, "bubble_sort", "bubbleNumbers");
-		numbers = connectToSqlDB.readDataBase("bubble_sort", "bubbleNumbers");
-		printValue(numbers);
+		Numbers = connectToSqlDB.readDataBase("bubble_sort", "bubbleNumbers");
+		printValue(Numbers);
 		n = num.length;
 		randomize (num, n);
-		numbers.clear();
+		Numbers.clear();
 
 		//Heap Sort
 		algo.heapSort(num);
 		long heapSortExecutionTime = algo.executionTime;
 		System.out.println("Total Execution Time of " + num.length + " numbers in Heap Sort take: " + heapSortExecutionTime + " milli sec");
 		connectToSqlDB.insertDataFromArrayToSqlTable(num, "heap_sort", "heapNumbers");
-		numbers = connectToSqlDB.readDataBase("heap_sort", "heapNumbers");
-		printValue(numbers);
+		Numbers = connectToSqlDB.readDataBase("heap_sort", "heapNumbers");
+		printValue(Numbers);
 		n = num.length;
 		randomize (num, n);
-		numbers.clear();
+		Numbers.clear();
 
 		//Bucket sort
 		algo.bucketSort(num);
 		long bucketSortExecutionTime = algo.executionTime;
 		System.out.println("Total Execution Time of " + num.length + " numbers in bucket Sort take: " + bucketSortExecutionTime + " milli sec");
 		connectToSqlDB.insertDataFromArrayToSqlTable(num, "bucket_sort", "bucketNumbers");
-		numbers = connectToSqlDB.readDataBase("bucket_sort", "bucketNumbers");
-		printValue(numbers);
+		Numbers = connectToSqlDB.readDataBase("bucket_sort", "bucketNumbers");
+		printValue(Numbers);
 		n = num.length;
 		randomize (num, n);
-		numbers.clear();
+		Numbers.clear();
 
 		//Quick sort
 		int low = 0;
@@ -84,33 +84,33 @@ public class Numbers {
 		long quickSortExecutionTime = algo.executionTime;
 		System.out.println("Total Execution Time of " + num.length + " numbers in Quick Sort take: " + quickSortExecutionTime + " milli sec");
 		connectToSqlDB.insertDataFromArrayToSqlTable(num, "quick_sort", "quickNumbers");
-		numbers = connectToSqlDB.readDataBase("quick_sort", "quickNumbers");
-		printValue(numbers);
+		Numbers = connectToSqlDB.readDataBase("quick_sort", "quickNumbers");
+		printValue(Numbers);
 		n = num.length;
 		randomize (num, n);
-		numbers.clear();
+		Numbers.clear();
 
 		//Merge Sort
 		algo.MergeSort(num);
 		long mergeSortExecutionTime = algo.executionTime;
 		System.out.println("Total Execution Time of " + num.length + " numbers in merge Sort take: " + mergeSortExecutionTime + " milli sec");
 		connectToSqlDB.insertDataFromArrayToSqlTable(num, "merge_sort", "mergeNumbers");
-		numbers = connectToSqlDB.readDataBase("merge_sort", "mergeNumbers");
-		printValue(numbers);
+		Numbers = connectToSqlDB.readDataBase("merge_sort", "mergeNumbers");
+		printValue(Numbers);
 		n = num.length;
 		randomize (num, n);
-		numbers.clear();
+		Numbers.clear();
 
 		//Shell Short
 		algo.shellSort(num);
 		long shellSortExecutionTime = algo.executionTime;
 		System.out.println("Total Execution Time of " + num.length + " numbers in Shell Sort take: " + shellSortExecutionTime + " milli sec");
 		connectToSqlDB.insertDataFromArrayToSqlTable(num, "shell_sort", "shellNumbers");
-		numbers = connectToSqlDB.readDataBase("shell_sort", "shellNumbers");
-		printValue(numbers);
+		Numbers = connectToSqlDB.readDataBase("shell_sort", "shellNumbers");
+		printValue(Numbers);
 		n = num.length;
 		randomize (num, n);
-		numbers.clear();
+		Numbers.clear();
 		//Come to conclusion about which Sorting Algo is better in given data set.
 
 	}
@@ -176,7 +176,7 @@ public class Numbers {
 
 		//Come to conclusion about which Sorting Algo is better in given data set of 1000000.
 
-	}
+
 
 	public static void storeRandomNumbers(int [] num){
 		Random rand=new Random();
@@ -197,9 +197,10 @@ public class Numbers {
 			arr[j] = temp;
 		}
 	}
-	public static void printValue(List<String> array){
-		for(String st:array){
+	public static void printValue(List<String> array) {
+		for (String st : array) {
 			System.out.println(st);
 		}
 	}
+}
 
